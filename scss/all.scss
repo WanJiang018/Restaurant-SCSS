@@ -1,0 +1,33 @@
+@import 'vendors/bootstrap/bootstrap';
+@import 'helpers/mixin';
+@import 'helpers/_utilities';
+
+@import 'components/input-search';
+@import 'components/shopping-cart';
+@import 'components/block-form';
+
+@import 'components/images';
+@import 'components/layout';
+@import 'components/item-card';
+
+//fontawesome
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+// @import "functions";
+// @import "helpers/variables";
+// @import "bootstrap";
+
+// // 區塊式內容
+// @import "components/header";
+// @import "components/section";
+// @import "components/item-card";
+// @import "components/carts";
+
+// // 元件
+// @import "components/form-square";
+// @import "components/process-steps";
+// @import "components/interactive"; // 互動元件
+// @import "components/custom-bs4";  // Bootstrap 4 調整
+
+// // 通用類別
+// @import "components/utilities";

@@ -1,0 +1,30 @@
+.img-chef {
+  @include cover-img('./../image/main_chef_brown.png');
+  height: 460px;
+}
+
+.img-avatar {
+  width: 46px;
+  height: 46px;
+}
+
+.img-map {
+  height: 386px;
+  @include cover-img('./../image/Map.png');
+}
+
+.img-classic-hamburger{
+  @include cover-img('./../image/product_1.png');
+}
+
+.img-classic-sausage{
+  @include cover-img('./../image/product_2.png');
+}
+
+.img-hamburger-brothers{
+  @include cover-img('./../image/product_3.png');
+}
+
+.img-rdagon-ball-package{
+  @include cover-img('./../image/product_4.png');
+}

@@ -1,0 +1,59 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+.logo a {
+  @include logo('./../image/logo_w.svg', 24px, 120px);
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.navbar-collapse {
+  position: absolute;
+  top: 72px;
+  left: 0px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+
+  @include lg {
+    position: relative;
+    top: 0;
+  }
+}
+
+.banner {
+  @include cover-img('./../image/header_desktop.png');
+  @include mask(#000);
+  height: 420px;
+  z-index: -1;
+  margin-top: -72px;
+}
+
+.banner-content {
+  background-color: $black-35;
+  text-align: center;
+  max-width: 460px;
+  width: 80%;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 26px;
+
+  @include md {
+    width: 100%;
+  }
+}
+
+.ic-google-plus {
+  color: #db4437;
+}
+
+.ic-twitter {
+  color: #41abe1;
+}
+
+.ic-facebook {
+  color: #3a5795;
+}
